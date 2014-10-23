@@ -1,11 +1,11 @@
 num1 = ""
-until num1.to_i.to_s == num1
+until (num1.to_i.to_s == num1) || (num1.to_f.to_s == num1)
 	puts ">>> Enter your first number:"
 	num1 = gets.chomp
 end
 
 num2 = ""
-until num2.to_i.to_s == num2
+until (num2.to_i.to_s == num2) || (num2.to_f.to_s == num2)
 	puts ">>> Enter your second number:"
 	num2 = gets.chomp
 end
