@@ -8,14 +8,14 @@ puts ">>> Enter the number of the operation you wish to apply: 1. Add 2. Subtrac
 operation = gets.chomp
 
 if operation == "1"
-	puts ">>> #{num1 + num2}"
+  puts ">>> #{num1 + num2}"
 elsif operation == "2"
-	puts ">>> #{num1 - num2}"
+  puts ">>> #{num1 - num2}"
 elsif operation == "3"
-	puts ">>> #{num1 * num2}"
+  puts ">>> #{num1 * num2}"
 elsif operation == "4"
-	puts ">>> #{num1 / num2}"
+  puts ">>> #{num1 / num2}"
 else
-	puts ">>> Sorry, that option doesn't exist!"
+  puts ">>> Sorry, that option doesn't exist!"
 end
 
